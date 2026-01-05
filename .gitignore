@@ -13,8 +13,9 @@ chess_env/
 .ipynb_checkpoints/
 
 # Data
-data/raw/
-data/processed/*.png
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
 !data/processed/.gitkeep
 
 # Logs
@@ -24,15 +25,5 @@ data/processed/*.png
 .DS_Store
 Thumbs.db
 
-# User Specific / Documentation Notes (Local only)
-dashboard things.txt
-question and answers.txt
-the analysischec.txt
+# Private Docs
 implementation_plan.md.resolved
-development.md
-
-# Dev Scripts
-verify_logic.py
-robust_cleanup.py
-debug_extraction.py
-src/chess_analysis.py
